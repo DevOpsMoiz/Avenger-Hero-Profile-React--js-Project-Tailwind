@@ -1,0 +1,17 @@
+.right,
+.left img {
+  transition: opacity 0.3s ease-in-out; /* Match this duration with the timeout in useEffect */
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+.right span{
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem /* 16px */ * var(--tw-space-x-reverse));
+  margin-left: calc(1rem /* 16px */ * calc(1 - var(--tw-space-x-reverse)));
+}
